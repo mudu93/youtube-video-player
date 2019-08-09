@@ -27,7 +27,7 @@ handleSubmit = async (searchTerm) => {
       params: {
         part: 'snippet',
         maxResults: 5,
-        key: 'AIzaSyBTf201mF7XSLKrAuFP0txzHLb6MNvaSDI',
+        key: [api key],
         q: searchTerm,
       }
     });
